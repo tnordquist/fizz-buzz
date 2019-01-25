@@ -1,0 +1,26 @@
+* loop through 1 through 100
+* nested if else
+
+String s;
+
+for ( i = 1; i <= 100; i++) {
+
+
+   if(i % 3 == 0) {
+       s = "fizz";
+   }   else {
+       s = "";
+   }
+
+   if (i % 5 == 0) {
+      s+="buzz";
+
+   }
+
+   if (s.equals("")) {
+      s = Integer.parseInt(i);
+   }
+
+   System.out.println("s");
+
+}
